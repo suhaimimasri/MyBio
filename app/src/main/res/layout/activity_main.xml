@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#555555"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:background="#60ad5e"/>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="393dp"
+        android:layout_height="167dp"
+        android:background="#fdfbfb"
+        android:src="@drawable/lish"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME : Muhammad Khalish Danil Bin Mohd Khairi"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : A11.2018.90014"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS : No 16,Jalan Sadewa 1,Semarang"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOBBY : Playing Game"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#ffffff"
+        android:background="#60ad5e"
+        android:textStyle="italic"
+        android:onClick="callNumber"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Url"
+        android:textColor="#ffffff"
+        android:background="#60ad5e"
+        android:textStyle="italic"
+        android:onClick="openUrl"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showMap"
+        android:textColor="#ffffff"
+        android:background="#60ad5e"
+        android:textStyle="italic"
+        android:text="Show Home Location"/>
+
+</LinearLayout>
